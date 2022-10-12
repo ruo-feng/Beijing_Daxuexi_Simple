@@ -74,9 +74,9 @@ def study(username, password, ua):
         orgID = '172442'
         print(f"无法获取orgID")
 
-    if f"学习课程：《{title}》" in list(map(lambda x: x['text'], haveLearned['data'])):
-        print(f'{title} 在运行前已完成,退出')
-        return 1
+#     if f"学习课程：《{title}》" in list(map(lambda x: x['text'], haveLearned['data'])):
+#         print(f'{title} 在运行前已完成,退出')
+#         return 1
 
     # pattern = re.compile(r'https://h5.cyol.com/special/daxuexi/(\w+)/m.html\?t=1&z=201')
     # result = pattern.search(url)
